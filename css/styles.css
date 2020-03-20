@@ -1,3 +1,19 @@
-[v-clock] {
-  display: none
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 2000ms ease-out;
+}
+
+.v-enter {
+  opacity: 0;
+}
+
+.v-enter-to {
+  opacity: 1;
+}
+
+.v-leave {
+  opacity: 1;
+}
+.v-leave-to {
+  opacity: 0;
 }
